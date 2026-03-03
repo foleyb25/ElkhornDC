@@ -91,8 +91,7 @@ Based on competitor analysis, the Elkhorn Dog Chews site should have:
 4. **Featured Products / Shop by Size** - Quick access to product catalog
 5. **Brand Story Snippet** - Short sourcing narrative with link to full story
 6. **Customer Testimonials** - 2-3 rotating reviews with dog photos
-7. **Educational Teaser** - "Why Elk Antlers?" with link to full content
-8. **Instagram/Social Feed** - User-generated content with dogs enjoying chews
+7. **Instagram/Social Feed** - User-generated content with dogs enjoying chews
 
 ### 2.3 Key Content Pages
 
