@@ -1,4 +1,4 @@
-# Brown Elkhorn Dog Chews - Website Features Research Document
+# Elkhorn Dog Chews - Website Features Research Document
 
 ## Competitive Landscape Summary
 
@@ -21,7 +21,7 @@ Research conducted across 7 antler dog chew competitors to identify industry-sta
 ## 1. PRODUCT ORGANIZATION
 
 ### 1.1 Size Tiers (Industry Standard)
-Every competitor segments products by dog weight. Recommended tiers for Brown Elkhorn:
+Every competitor segments products by dog weight. Recommended tiers for Elkhorn Dog Chews:
 
 | Size Name | Dog Weight Range | Used By |
 |-----------|-----------------|---------|
@@ -35,7 +35,7 @@ Every competitor segments products by dog weight. Recommended tiers for Brown El
 **Recommendation:** Use 4-5 size tiers matched to dog weight ranges. Include a visual sizing guide.
 
 ### 1.2 Cut Types
-Since Brown Elkhorn is elk-only, cut type becomes the primary product differentiator:
+Since Elkhorn Dog Chews is elk-only, cut type becomes the primary product differentiator:
 
 | Cut Type | Description | Chewer Level | Competitors Offering |
 |----------|-------------|--------------|---------------------|
@@ -64,7 +64,7 @@ Since Brown Elkhorn is elk-only, cut type becomes the primary product differenti
 ## 2. ESSENTIAL PAGES & SITE STRUCTURE
 
 ### 2.1 Navigation (Recommended)
-Based on competitor analysis, the Brown Elkhorn site should have:
+Based on competitor analysis, the Elkhorn Dog Chews site should have:
 
 **Primary Navigation:**
 - Shop (with dropdown by size or cut type)
@@ -163,7 +163,7 @@ Based on competitor analysis:
 
 ### 4.1 Common Industry Messaging Themes
 
-Every competitor uses some combination of these claims. Brown Elkhorn should address all of them:
+Every competitor uses some combination of these claims. Elkhorn Dog Chews should address all of them:
 
 | Message | How Competitors Frame It |
 |---------|-------------------------|
@@ -189,14 +189,14 @@ Every competitor uses some combination of these claims. Brown Elkhorn should add
 | **Elk Antler Dog Chews LLC** | "The antler lady from Michigan", personal curation, farm accreditation |
 | **RakSnaks** | "Random Acts of Kindness" charity campaign woven into brand name, purchases fund kindness initiatives |
 
-**Recommendation for Brown Elkhorn:** Lean into the elk-only specialization as a differentiator. Most competitors sell elk, deer, AND moose. Being elk-exclusive signals expertise and focus. Emphasize the "Brown Elkhorn" name origin story and why elk antlers specifically are superior.
+**Recommendation for Elkhorn Dog Chews:** Lean into the elk-only specialization as a differentiator. Most competitors sell elk, deer, AND moose. Being elk-exclusive signals expertise and focus. Emphasize the "Elkhorn Dog Chews" name origin story and why elk antlers specifically are superior.
 
 ### 4.3 Elk-Only Positioning (Key Differentiator)
 
-3 of 7 competitors focus exclusively on elk (Elk Antler Dog Chews LLC, Elk Antler Dog Chews, and RakSnaks). The rest sell deer and moose too. Brown Elkhorn can own the messaging:
+3 of 7 competitors focus exclusively on elk (Elk Antler Dog Chews LLC, Elk Antler Dog Chews, and RakSnaks). The rest sell deer and moose too. Elkhorn Dog Chews can own the messaging:
 - "We do one thing and we do it best - Elk Antler Dog Chews"
 - Explain why elk antlers are the premium choice (denser, longer-lasting, richer mineral content vs. deer)
-- Position deer/moose sellers as generalists vs. Brown Elkhorn as the elk specialist
+- Position deer/moose sellers as generalists vs. Elkhorn Dog Chews as the elk specialist
 
 ---
 
@@ -289,7 +289,7 @@ Based on competitor content and common customer questions:
 | **BigCommerce** | Mountain Dog | Strong built-in features, good SEO | Steeper learning curve |
 | **WooCommerce** | Elk Antler Dog Chews | Full control, WordPress ecosystem | Requires more technical maintenance |
 
-**Recommendation:** Shopify is the strongest choice for Brown Elkhorn. It supports subscriptions natively, has the best mobile experience, and integrates easily with review apps, email marketing, and shipping tools.
+**Recommendation:** Shopify is the strongest choice for Elkhorn Dog Chews. It supports subscriptions natively, has the best mobile experience, and integrates easily with review apps, email marketing, and shipping tools.
 
 ---
 
@@ -337,7 +337,7 @@ Based on competitor content and common customer questions:
 
 Based on gaps identified in the competitive landscape:
 
-1. **Elk-Only Specialist** - 4 of 7 competitors sell elk, deer, AND moose. Being elk-exclusive with superior branding and content positions Brown Elkhorn as the premium elk expert.
+1. **Elk-Only Specialist** - 4 of 7 competitors sell elk, deer, AND moose. Being elk-exclusive with superior branding and content positions Elkhorn Dog Chews as the premium elk expert.
 
 2. **Satisfaction Guarantee** - No competitor prominently features this. A strong guarantee reduces first-time buyer hesitation.
 
@@ -355,7 +355,7 @@ Based on gaps identified in the competitive landscape:
 
 9. **Creative Product Formats** - RakSnaks shows there's demand for antler products beyond traditional cuts. Rope Snaks (antler + rope toy), Antler Toppers (food enrichment), and tip multi-packs are innovative formats that expand the product line without sourcing new materials.
 
-10. **Charitable Mission** - RakSnaks demonstrates that embedding a cause into the brand identity resonates. Brown Elkhorn could partner with elk conservation organizations (e.g., Rocky Mountain Elk Foundation, similar to Montana Tuff) and make it a visible part of the brand story.
+10. **Charitable Mission** - RakSnaks demonstrates that embedding a cause into the brand identity resonates. Elkhorn Dog Chews could partner with elk conservation organizations (e.g., Rocky Mountain Elk Foundation, similar to Montana Tuff) and make it a visible part of the brand story.
 
 ---
 
