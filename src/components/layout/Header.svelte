@@ -3,6 +3,7 @@
 	import Button from '../ui/Button.svelte';
 
 	let mobileOpen = $state(false);
+	let scrolled = $state(false);
 
 	const navLinks = [
 		{ href: '/products', label: 'Products' },
@@ -11,11 +12,26 @@
 		{ href: '/faq', label: 'FAQ' },
 		{ href: '/contact', label: 'Contact' }
 	];
+
+	function handleScroll() {
+		scrolled = window.scrollY > 20;
+	}
 </script>
 
-<header class="sticky top-0 z-40 border-b border-bark-200 bg-cream">
-	<div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-		<a href="/" class="font-heading text-2xl text-bark-800">Elkhorn Dog Chews</a>
+<svelte:window onscroll={handleScroll} />
+
+<header
+	class="sticky top-0 z-40 border-b border-bark-200 bg-white transition-all duration-300
+		{scrolled ? 'py-2' : 'py-5'}"
+>
+	<div class="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+		<a href="/" class="flex-shrink-0">
+			<img
+				src="/images/logo_primary.PNG"
+				alt="Elkhorn Dog Chews"
+				class="w-auto transition-all duration-300 {scrolled ? 'h-10' : 'h-20'}"
+			/>
+		</a>
 
 		<nav class="hidden items-center gap-8 md:flex">
 			{#each navLinks as link}

@@ -37,3 +37,37 @@ export type ContactFormData = z.infer<typeof contactFormSchema>;
 export const newsletterSchema = z.object({
 	email: z.string().email('Please enter a valid email address')
 });
+
+export const loginSchema = z.object({
+	email: z.string().email('Please enter a valid email address'),
+	password: z.string().min(1, 'Password is required')
+});
+
+export type LoginFormData = z.infer<typeof loginSchema>;
+
+export const productFormSchema = z.object({
+	name: z.string().min(1, 'Name is required').max(200),
+	slug: z
+		.string()
+		.min(1, 'Slug is required')
+		.max(200)
+		.regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Slug must be lowercase with hyphens only'),
+	description: z.string().min(1, 'Description is required').max(5000),
+	short_description: z.string().min(1, 'Short description is required').max(500),
+	size_tier: z.enum(['small', 'medium', 'large', 'x-large'], {
+		errorMap: () => ({ message: 'Please select a size tier' })
+	}),
+	cut_type: z.enum(['whole', 'split'], {
+		errorMap: () => ({ message: 'Please select a cut type' })
+	}),
+	chewer_level: z.string().min(1, 'Chewer level is required').max(100),
+	dog_weight_min: z.coerce.number().min(0, 'Must be 0 or greater'),
+	dog_weight_max: z.coerce.number().min(1, 'Must be at least 1'),
+	price_cents: z.coerce.number().min(1, 'Price must be at least 1 cent'),
+	images: z.string().default(''),
+	featured: z.coerce.boolean().default(false),
+	sort_order: z.coerce.number().int().min(0).default(0),
+	active: z.coerce.boolean().default(true)
+});
+
+export type ProductFormData = z.infer<typeof productFormSchema>;

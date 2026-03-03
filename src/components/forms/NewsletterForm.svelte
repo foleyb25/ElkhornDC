@@ -34,18 +34,18 @@
 		bind:value={email}
 		placeholder="Your email"
 		required
-		class="flex-1 rounded-lg border border-bark-600 bg-bark-700 px-3 py-2 text-sm text-white placeholder-bark-400 focus:border-bark-400 focus:outline-none"
+		class="flex-1 rounded-lg border border-bark-200 bg-white px-3 py-2 text-sm text-charcoal placeholder-charcoal-light/50 focus:border-bark-500 focus:outline-none focus:ring-1 focus:ring-bark-500"
 	/>
 	<button
 		type="submit"
 		disabled={status === 'loading'}
-		class="rounded-lg bg-bark-500 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-bark-400 disabled:opacity-50"
+		class="rounded-lg bg-charcoal px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-charcoal-light disabled:opacity-50"
 	>
 		{status === 'loading' ? '...' : 'Join'}
 	</button>
 </form>
 {#if message}
-	<p class="mt-2 text-sm {status === 'success' ? 'text-forest-300' : 'text-red-400'}">
+	<p class="mt-2 text-sm {status === 'success' ? 'text-forest-600' : 'text-red-600'}">
 		{message}
 	</p>
 {/if}

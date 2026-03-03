@@ -23,7 +23,7 @@
 	<!-- Drawer -->
 	<div class="fixed inset-y-0 right-0 z-50 w-72 bg-cream shadow-xl">
 		<div class="flex items-center justify-between border-b border-bark-200 px-4 py-4">
-			<span class="font-heading text-xl text-bark-800">Menu</span>
+			<img src="/images/logo_alternate.JPG" alt="Elkhorn Dog Chews" class="h-10 w-auto" />
 			<button
 				onclick={() => (open = false)}
 				class="rounded-md p-2 text-charcoal hover:bg-bark-100"
