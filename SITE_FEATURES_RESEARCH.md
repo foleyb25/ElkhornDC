@@ -74,25 +74,25 @@ Based on competitor analysis, the Elkhorn Dog Chews site should have:
 - Contact
 
 **Secondary/Utility Navigation:**
-- Cart
-- Account/Login
 - Search
+- Order Form / Get Sized
 
 **Footer Navigation:**
-- Shipping & Returns
+- Shipping Info
 - Privacy Policy
 - Terms of Service
 - Social Media Links
 
 ### 2.2 Homepage Sections (Priority Order)
 
-1. **Hero Banner** - Strong visual + tagline + primary CTA ("Shop Now")
-2. **Value Proposition Bar** - 3-4 key benefits with icons (e.g., "100% Natural", "USA Sourced", "Elk Only", "Free Shipping $XX+")
-3. **Featured Products / Shop by Size** - Quick access to product categories
-4. **Brand Story Snippet** - Short sourcing narrative with link to full story
-5. **Customer Testimonials** - 2-3 rotating reviews with dog photos
-6. **Educational Teaser** - "Why Elk Antlers?" with link to full content
-7. **Instagram/Social Feed** - User-generated content with dogs enjoying chews
+1. **Hero Banner** - Strong visual + tagline + primary CTA ("Find Your Dog's Perfect Chew" or "Browse Our Chews")
+2. **Value Proposition Bar** - 3-4 key benefits with icons (e.g., "100% Natural", "USA Sourced", "Elk Only", "Personally Sized for Your Dog")
+3. **How It Works** - Simple 3-step visual: Browse Products → Fill Out Sizing Form → We Match the Perfect Chew for Your Dog
+4. **Featured Products / Shop by Size** - Quick access to product catalog
+5. **Brand Story Snippet** - Short sourcing narrative with link to full story
+6. **Customer Testimonials** - 2-3 rotating reviews with dog photos
+7. **Educational Teaser** - "Why Elk Antlers?" with link to full content
+8. **Instagram/Social Feed** - User-generated content with dogs enjoying chews
 
 ### 2.3 Key Content Pages
 
@@ -109,37 +109,68 @@ Based on competitor analysis, the Elkhorn Dog Chews site should have:
 
 ---
 
-## 3. E-COMMERCE FEATURES
+## 3. SITE FEATURES (Consultation-Based Model)
 
-### 3.1 Must-Have Features
+**Important:** Unlike all 7 competitors who use traditional e-commerce (add to cart → checkout → pay online), Elkhorn Dog Chews uses a **consultation-based ordering model**. Customers browse the product catalog like a traditional shop, but instead of purchasing directly, they submit a sizing form. The Elkhorn team then personally assesses the dog's needs, recommends the right product, and takes payment directly.
 
-| Feature | Details | Competitors Using |
-|---------|---------|-------------------|
-| **Free Shipping Threshold** | Industry range: $59-$100 | 6 of 7 (not visible on RakSnaks) |
-| **Product Variants** | Size + cut type selectors on product page | All competitors |
-| **Customer Reviews on Products** | Star ratings + written reviews | Mountain Dog, Buck Bone, Elk Antler LLC |
-| **Product Photography** | Multiple angles, lifestyle photos with dogs | All competitors |
+This is a **key differentiator** - no competitor offers this level of personal service.
+
+### 3.1 Product Catalog Features (Shop-Like Browsing Experience)
+
+| Feature | Details | Notes |
+|---------|---------|-------|
+| **Product Listings** | Grid/collection view with photos, names, and size/cut info | Looks like a traditional shop so customers can browse and understand what's available |
+| **Product Detail Pages** | Multiple images, descriptions, cut type info, chewer level | No "Add to Cart" button - replaced with "Get Sized" or "Request This Chew" CTA linking to the sizing form |
+| **Search & Filter** | Search bar + filters by size and cut type | Helps customers find products of interest before filling out the form |
+| **Product Photography** | Multiple angles, lifestyle photos with dogs | All competitors do this - essential for a browse-and-inquire model too |
 | **Mobile-Responsive Design** | Critical - majority of pet product traffic is mobile | All competitors |
-| **Search Functionality** | Product search bar | All competitors |
-| **Secure Checkout** | SSL, standard payment processors | All competitors |
+| **Pricing Display** | Show prices on product pages for transparency | Customers should know the price range before submitting the form |
 
-### 3.2 Differentiating Features
+### 3.2 Sizing / Order Inquiry Form (Core Conversion Feature)
+
+This is the central feature that replaces the traditional cart/checkout. The form should be accessible from every product page and the main navigation.
+
+**Recommended Form Fields:**
+
+| Field | Type | Purpose |
+|-------|------|---------|
+| Customer name | Text | Contact info |
+| Email address | Email | Primary communication channel |
+| Phone number (optional) | Phone | Follow-up if needed |
+| Dog's name | Text | Personal touch |
+| Dog's breed | Text/Dropdown | Helps determine chew hardness and size |
+| Dog's weight | Number + unit | Primary sizing factor |
+| Dog's age | Number or range | Puppy vs. adult affects recommendation |
+| Chewing style | Dropdown: Light / Moderate / Aggressive / Power | Determines cut type recommendation |
+| Previous antler chew experience? | Yes/No + text | Helps tailor the recommendation |
+| Product(s) of interest (optional) | Checkboxes or text | If they browsed a specific product first |
+| Quantity | Number | How many chews they want |
+| Additional notes | Textarea | Any special requests or concerns |
+| Shipping address | Address fields | For quoting shipping if applicable |
+
+**Form Behavior:**
+- Submitted form data is sent via email to the Elkhorn Dog Chews team
+- Customer receives an auto-reply confirmation ("We received your request and will be in touch within X hours")
+- Team reviews the submission, selects the right chew, and contacts the customer with a recommendation and payment details
+
+### 3.3 Additional Features
 
 | Feature | Details | Competitors Using |
 |---------|---------|-------------------|
-| **Subscription/Auto-Ship** | 15% discount on first + 5% ongoing (Buck Bone model) | Buck Bone only |
-| **Chew Size Quiz** | Interactive quiz recommends products based on dog info | Buck Bone only |
-| **Gift Certificates** | Purchasable gift cards | Mountain Dog only |
-| **Curated Bundles** | "Starter Pack", "Variety Box" | Buck Bone only |
-| **Wholesale Program** | Dedicated wholesale inquiry/pricing | Mountain Dog, Buck Bone |
-| **Wishlist** | Save products for later | Mountain Dog only |
+| **Customer Reviews/Testimonials** | Star ratings + written reviews on product pages and/or a dedicated reviews page | Mountain Dog, Buck Bone, Elk Antler LLC |
+| **Wholesale Inquiry** | Separate form for bulk/wholesale orders | Mountain Dog, Buck Bone |
 | **Dog Show/Event Schedule** | In-person sales calendar | Elk Antler Dog Chews LLC only |
 | **Charitable Giving / Cause Campaign** | Portion of proceeds to a cause, branded into identity | RakSnaks ("RAK Campaign" = Random Acts of Kindness) |
-| **Multi-Currency Support** | International customers can shop in local currency | RakSnaks |
-| **Expanded Payment Options** | Apple Pay, Google Pay, Shop Pay, PayPal + cards | RakSnaks, Buck Bone |
-| **Loyalty/Rewards Program** | Points for purchases | None currently |
+| **Newsletter Signup** | Email capture for marketing | Most competitors |
 
-**Recommendation:** A subscription model and interactive sizing quiz are the biggest opportunities - only one competitor (Buck Bone) offers these, and they are proven conversion drivers.
+**What Elkhorn Dog Chews does NOT need (due to consultation model):**
+- Shopping cart / checkout system
+- Payment processing integration (Stripe, Shopify Payments, etc.)
+- Subscription/auto-ship functionality
+- Gift cards / gift certificates
+- Account login / order history portal
+- Inventory management tied to the website
+- Wishlist functionality
 
 ### 3.3 Pricing Strategy
 
@@ -210,7 +241,7 @@ Every competitor uses some combination of these claims. Elkhorn Dog Chews should
 | **Star Ratings** | Critical | Aggregate ratings visible on collection/listing pages |
 | **Photo Reviews** | High | Allow customers to upload photos of dogs with chews |
 | **Sourcing Transparency** | High | Where the antlers come from, how they're collected, any farm accreditation |
-| **Free Shipping Badge** | High | Prominent announcement bar |
+| **Shipping Info** | High | Clear shipping details on the site so customers know what to expect |
 | **Satisfaction Guarantee** | High | Money-back or replacement guarantee (NO competitor prominently offers this - opportunity) |
 | **"Why Buy From Us"** | Medium | Dedicated page explaining differentiators (Mountain Dog, Buck Bone do this) |
 | **Social Proof Counter** | Medium | "X dogs served" or "X chews sold" |
@@ -270,92 +301,91 @@ Based on competitor content and common customer questions:
 
 ### 7.2 UX Best Practices from Competitors
 
-- **Announcement bar** at top for shipping promos (all competitors)
-- **Sticky/persistent cart** accessible from any page
-- **Quick-view** on product listings (Mountain Dog)
+- **Announcement bar** at top for key messaging (e.g., "Personally sized for your dog - fill out our sizing form!")
+- **Persistent "Get Sized" CTA** accessible from any page (sticky button or nav link)
+- **Quick-view** on product listings for browsing without leaving the catalog (Mountain Dog does this)
 - **Breadcrumb navigation** for easy browsing
 - **Size filter** on collection pages
-- **"Back in stock" notifications** for sold-out items
 - **Product comparison table** (whole vs. split) on educational pages
+- **Clear "How to Order" messaging** throughout the site so customers understand the consultation process
 
 ---
 
 ## 8. TECHNICAL PLATFORM RECOMMENDATION
 
-| Platform | Competitors Using | Pros | Cons |
-|----------|-------------------|------|------|
-| **Shopify** | Montana Tuff, Buck Bone, RakSnaks | Best app ecosystem, easy subscription integration, great mobile themes | Monthly fees, transaction fees without Shopify Payments |
-| **Squarespace** | Antler Ridge, Elk Antler LLC | Beautiful templates, simple setup | Limited e-commerce features, fewer integrations |
-| **BigCommerce** | Mountain Dog | Strong built-in features, good SEO | Steeper learning curve |
-| **WooCommerce** | Elk Antler Dog Chews | Full control, WordPress ecosystem | Requires more technical maintenance |
+Since Elkhorn Dog Chews does not need a full e-commerce checkout system, the platform choice shifts toward sites that excel at content, product showcasing, and form handling rather than payment processing.
 
-**Recommendation:** Shopify is the strongest choice for Elkhorn Dog Chews. It supports subscriptions natively, has the best mobile experience, and integrates easily with review apps, email marketing, and shipping tools.
+| Platform | Pros for This Model | Cons |
+|----------|-------------------|------|
+| **Squarespace** | Beautiful templates, built-in form builder with email notifications, easy product-style layouts without checkout, low maintenance | Less flexible for custom functionality |
+| **WordPress + Custom Theme** | Full control, excellent form plugins (Gravity Forms, WPForms, Contact Form 7), strong SEO, product-style layouts via custom post types | Requires more technical maintenance, hosting management |
+| **Shopify (Lite/Modified)** | Product catalog features out of the box, great mobile themes, can disable checkout and redirect to form | Monthly fees, overkill since checkout isn't needed |
+| **Static Site (Next.js, Hugo, etc.)** | Fast, cheap hosting, full design control, form submissions via Formspree/Netlify Forms | Requires developer for updates, no CMS for non-technical users |
+
+**Recommendation:** WordPress or Squarespace are the best fits for this model. Both support product-style catalog layouts with strong form handling and email integration, without paying for e-commerce features that won't be used. WordPress offers more flexibility; Squarespace offers simpler maintenance.
 
 ---
 
 ## 9. RECOMMENDED FEATURES PRIORITY
 
 ### Phase 1 - Launch (Must-Have)
-- [ ] Product pages with multiple images, size/cut variants, descriptions
+- [ ] Product catalog pages with multiple images, size/cut info, descriptions, and pricing
+- [ ] "Get Sized" / order inquiry form with email notification to the team
+- [ ] Auto-reply confirmation email to customers after form submission
+- [ ] "How It Works" section explaining the consultation-based process
 - [ ] Size guide page with dog weight-to-product matching
-- [ ] Shopping cart and secure checkout
 - [ ] Mobile-responsive design
 - [ ] About/Our Story page
-- [ ] FAQ page
-- [ ] Free shipping threshold with announcement bar
+- [ ] FAQ page (include "How do I order?" to explain the process)
 - [ ] Contact page/form
 - [ ] Basic SEO setup (meta tags, descriptions, alt text)
 - [ ] Email capture (newsletter signup)
 - [ ] Social media links
 
 ### Phase 2 - Growth (High Value)
-- [ ] Customer review system (product pages + dedicated reviews page)
-- [ ] Interactive sizing quiz ("Find the right chew for your dog")
+- [ ] Customer reviews/testimonials page
+- [ ] Interactive sizing quiz ("Find the right chew for your dog") - feeds into the sizing form
 - [ ] Blog with 5-10 SEO-optimized articles
-- [ ] Subscription/auto-ship program
-- [ ] Email marketing automation (welcome series, abandoned cart, reorder reminders)
-- [ ] Multi-pack and bundle products
+- [ ] Email marketing automation (welcome series, post-purchase follow-up, reorder reminders)
+- [ ] Multi-pack and bundle product listings
 - [ ] Photo gallery / Instagram feed integration
 - [ ] Satisfaction guarantee badge and policy page
 - [ ] Google Analytics + Meta Pixel tracking
+- [ ] Shipping info page with rates and delivery expectations
 
 ### Phase 3 - Scale
-- [ ] Wholesale program and inquiry page
-- [ ] Gift cards
-- [ ] Loyalty/rewards program
+- [ ] Wholesale inquiry form (separate from retail sizing form)
 - [ ] Referral program
 - [ ] SMS marketing
 - [ ] Dog show/event schedule (if applicable)
-- [ ] Elk antler powder / secondary product line
+- [ ] Elk antler powder / secondary product line listings
 - [ ] Creative product formats (rope toys with antler, antler toppers, tip multi-packs)
-- [ ] Wishlist functionality
 - [ ] Advanced SEO (structured data, rich snippets)
+- [ ] Transition to full e-commerce if order volume warrants it
 
 ---
 
-## 10. KEY DIFFERENTIATORS FOR BROWN ELKHORN
+## 10. KEY DIFFERENTIATORS FOR ELKHORN DOG CHEWS
 
 Based on gaps identified in the competitive landscape:
 
-1. **Elk-Only Specialist** - 4 of 7 competitors sell elk, deer, AND moose. Being elk-exclusive with superior branding and content positions Elkhorn Dog Chews as the premium elk expert.
+1. **Personal Sizing & Consultation Model** - No competitor does this. Every other site is self-service add-to-cart. Elkhorn Dog Chews personally assesses each dog and hand-picks the right chew. This is the single biggest differentiator - it signals expertise, care, and a premium experience. Messaging: *"We don't just sell chews - we match the perfect chew to your dog."*
 
-2. **Satisfaction Guarantee** - No competitor prominently features this. A strong guarantee reduces first-time buyer hesitation.
+2. **Elk-Only Specialist** - 4 of 7 competitors sell elk, deer, AND moose. Being elk-exclusive with superior branding and content positions Elkhorn Dog Chews as the premium elk expert.
 
-3. **Interactive Sizing Quiz** - Only Buck Bone offers this. It's a proven conversion tool that guides customers to the right product.
+3. **Satisfaction Guarantee** - No competitor prominently features this. A strong guarantee reduces first-time buyer hesitation.
 
-4. **Subscription Model** - Only Buck Bone offers auto-ship. Recurring revenue and customer retention.
+4. **Interactive Sizing Quiz** - Only Buck Bone offers this. For Elkhorn Dog Chews, the quiz can feed directly into the sizing form, making the consultation process feel guided and easy.
 
 5. **Expanded Cut Types** - Most competitors only offer whole and split. Adding tines, bases, and center-cuts gives more options for different chewing styles.
 
-6. **Loyalty/Rewards Program** - No competitor offers this. Points for purchases, reviews, and referrals.
+6. **Superior Educational Content** - Own the "why elk?" narrative with detailed comparisons and educational resources.
 
-7. **Superior Educational Content** - Own the "why elk?" narrative with detailed comparisons and educational resources.
+7. **Transparency** - Show the full journey from shed to shelf with photos/video of the collection and preparation process.
 
-8. **Transparency** - Show the full journey from shed to shelf with photos/video of the collection and preparation process.
+8. **Creative Product Formats** - RakSnaks shows there's demand for antler products beyond traditional cuts. Rope Snaks (antler + rope toy), Antler Toppers (food enrichment), and tip multi-packs are innovative formats that expand the product line without sourcing new materials.
 
-9. **Creative Product Formats** - RakSnaks shows there's demand for antler products beyond traditional cuts. Rope Snaks (antler + rope toy), Antler Toppers (food enrichment), and tip multi-packs are innovative formats that expand the product line without sourcing new materials.
-
-10. **Charitable Mission** - RakSnaks demonstrates that embedding a cause into the brand identity resonates. Elkhorn Dog Chews could partner with elk conservation organizations (e.g., Rocky Mountain Elk Foundation, similar to Montana Tuff) and make it a visible part of the brand story.
+9. **Charitable Mission** - RakSnaks demonstrates that embedding a cause into the brand identity resonates. Elkhorn Dog Chews could partner with elk conservation organizations (e.g., Rocky Mountain Elk Foundation, similar to Montana Tuff) and make it a visible part of the brand story.
 
 ---
 
