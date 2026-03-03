@@ -310,18 +310,22 @@ Based on competitor content and common customer questions:
 
 ---
 
-## 8. TECHNICAL PLATFORM RECOMMENDATION
+## 8. TECHNICAL STACK
 
-Since Elkhorn Dog Chews does not need a full e-commerce checkout system, the platform choice shifts toward sites that excel at content, product showcasing, and form handling rather than payment processing.
+| Layer | Technology | Role |
+|-------|-----------|------|
+| **Frontend & SSR** | SvelteKit | Full-stack framework handling routing, server-side rendering, product catalog pages, and form logic |
+| **Backend & Database** | Supabase | Product catalog data, form submissions storage, image URLs, and any future admin/auth needs |
+| **Email** | Resend | Sends form submission notifications to the Elkhorn team and auto-reply confirmations to customers |
+| **Hosting** | Vercel, Netlify, or Cloudflare Pages | SvelteKit adapter for deployment (all have generous free tiers) |
+| **Image Storage** | Supabase Storage or Cloudflare R2 | Product photography and lifestyle images |
 
-| Platform | Pros for This Model | Cons |
-|----------|-------------------|------|
-| **Squarespace** | Beautiful templates, built-in form builder with email notifications, easy product-style layouts without checkout, low maintenance | Less flexible for custom functionality |
-| **WordPress + Custom Theme** | Full control, excellent form plugins (Gravity Forms, WPForms, Contact Form 7), strong SEO, product-style layouts via custom post types | Requires more technical maintenance, hosting management |
-| **Shopify (Lite/Modified)** | Product catalog features out of the box, great mobile themes, can disable checkout and redirect to form | Monthly fees, overkill since checkout isn't needed |
-| **Static Site (Next.js, Hugo, etc.)** | Fast, cheap hosting, full design control, form submissions via Formspree/Netlify Forms | Requires developer for updates, no CMS for non-technical users |
+### How the Stack Fits the Consultation Model
 
-**Recommendation:** WordPress or Squarespace are the best fits for this model. Both support product-style catalog layouts with strong form handling and email integration, without paying for e-commerce features that won't be used. WordPress offers more flexibility; Squarespace offers simpler maintenance.
+- **Product Catalog:** SvelteKit pages pull product data (name, description, images, pricing, cut type, size tier) from Supabase. Products are displayed in a shop-like browsing experience with filtering and search.
+- **Sizing Form:** SvelteKit form action or API route validates the submission, writes it to a Supabase `orders` or `inquiries` table, and triggers a Resend email to the team with the customer's details.
+- **Auto-Reply:** Resend sends a branded confirmation email to the customer immediately after form submission.
+- **Admin (future):** Supabase auth + a simple admin dashboard to manage products, view/respond to inquiries, and update inventory without touching code.
 
 ---
 
