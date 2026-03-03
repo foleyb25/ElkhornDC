@@ -55,6 +55,33 @@
 		return field === 'active';
 	}
 
+	// Auto-slug from name (only for new products)
+	let nameValue = $state(getValue('name'));
+	let slugValue = $state(getValue('slug'));
+	let slugTouched = $state(!!product); // If editing, don't auto-generate
+
+	function toSlug(text: string): string {
+		return text
+			.toLowerCase()
+			.trim()
+			.replace(/[^\w\s-]/g, '')
+			.replace(/[\s_]+/g, '-')
+			.replace(/-+/g, '-')
+			.replace(/^-|-$/g, '');
+	}
+
+	function handleNameInput(e: Event) {
+		nameValue = (e.target as HTMLInputElement).value;
+		if (!slugTouched) {
+			slugValue = toSlug(nameValue);
+		}
+	}
+
+	function handleSlugInput(e: Event) {
+		slugValue = (e.target as HTMLInputElement).value;
+		slugTouched = true;
+	}
+
 	function handleFileSelect(event: Event) {
 		const input = event.target as HTMLInputElement;
 		const file = input.files?.[0];
@@ -93,7 +120,7 @@
 
 	// Preview card derived values
 	let previewImage = $derived(allPreviews.length > 0 ? allPreviews[0].url : '');
-	let previewName = $derived(getValue('name') || 'Product Name');
+	let previewName = $derived(nameValue || 'Product Name');
 	let previewShortDesc = $derived(getValue('short_description') || 'Short description will appear here');
 	let previewPrice = $derived(Number(getValue('price_cents', '0')));
 	let previewSizeTier = $derived(getValue('size_tier') || 'medium');
@@ -151,12 +178,12 @@
 		<div class="grid gap-4 sm:grid-cols-2">
 			<div>
 				<label for="name" class="block text-sm font-medium text-charcoal">Name *</label>
-				<input type="text" id="name" name="name" value={getValue('name')} required class={inputClass} />
+				<input type="text" id="name" name="name" value={nameValue} oninput={handleNameInput} required class={inputClass} />
 				{#if getError('name')}<p class="mt-1 text-sm text-red-600">{getError('name')}</p>{/if}
 			</div>
 			<div>
 				<label for="slug" class="block text-sm font-medium text-charcoal">Slug *</label>
-				<input type="text" id="slug" name="slug" value={getValue('slug')} required class={inputClass} />
+				<input type="text" id="slug" name="slug" value={slugValue} oninput={handleSlugInput} required class={inputClass} />
 				{#if getError('slug')}<p class="mt-1 text-sm text-red-600">{getError('slug')}</p>{/if}
 			</div>
 		</div>

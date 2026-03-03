@@ -6,6 +6,7 @@
 	import FeaturedProducts from '../components/home/FeaturedProducts.svelte';
 	import BrandStory from '../components/home/BrandStory.svelte';
 	import Testimonials from '../components/home/Testimonials.svelte';
+	import InstagramFeed from '../components/home/InstagramFeed.svelte';
 
 	let { data } = $props();
 </script>
@@ -20,4 +21,5 @@
 <HowItWorks />
 <FeaturedProducts products={data.featuredProducts} />
 <BrandStory />
+<InstagramFeed posts={data.instagramPosts} />
 <Testimonials />
